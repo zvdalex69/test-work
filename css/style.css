@@ -1521,8 +1521,13 @@ a {
         display: none;
     }
     .recent-posts__slider-item {
-        width: 66.9%;
-        margin: 10px 0;
+        width: 99%;
+        margin: 10px 0px;
+    }
+    .recent-posts__slider-item-img {
+        display: block;
+        width: 100%;
+        height: 42%;
     }
     .search-form__svg {
         display: none;
@@ -1564,8 +1569,8 @@ a {
         justify-content: space-around;
     }
     .latest-projects__link {
-        width: 77%;
-        margin: 10px 0 0 67px;
+        width: 99%;
+        margin: 10px 0 0 2px;
     }
     .latest-projects__link-img {
         width: 100%;
