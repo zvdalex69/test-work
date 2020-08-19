@@ -1491,7 +1491,7 @@ a {
         flex-direction: column;
         justify-content: center;
         position: fixed;
-        height: 57%;
+        height: 80%;
         width: 100%;
         box-sizing: border-box;
         display: flex;
