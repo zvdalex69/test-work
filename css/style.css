@@ -1551,6 +1551,9 @@ a {
         align-items: center;
         text-align: center;
     }
+    .tb-txt-des {
+        margin: 0 0 17px 0;
+    }
     .realization-des {
         width: 90%;
     }
