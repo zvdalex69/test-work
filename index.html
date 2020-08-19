@@ -7,10 +7,42 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Waxom</title>
 </head>
-<boy>
+
+<body>
     <header class="header">
         <div class="container">
             <div class="main-menu">
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li>
+                            <a href="#" class="header__link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">Features</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">Shortcodes</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
                 <a href="index.html" class="logo">
                     <svg class="logo-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66" height="59" viewBox="0 0 66 59">
                         <path
@@ -310,9 +342,7 @@
             </div>
         </section>
         <section class="video">
-            <video class="video-play" id="video" muted="" loop="" poster="img/video_bg.jpg" height="705">
-                <!--<source>
-                Добавить видео-->
+            <video class="video-play" id="video" muted loop poster="img/video_bg.jpg" height="705">
             </video>
             <div class="video-wrap">
                 <button class="video-wrap__btn">
@@ -405,58 +435,55 @@
             <div class="container">
                 <span class="recent-posts__title">Recent Posts.</span>
                 <p class="recent-posts__des">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-                <div class="recent-posts__slider">
-                    <div class="slider-list">
-                        <div class="slider-track">
-                            <div class="recent-posts__slider-item">
-                                <img class=" recent-posts__slider-item-img" src="img/bg_photo_11639.jpg" alt="recent_posts__slider_item_img_3" height="220">
-                                <div class="recent-posts__slider-item-wrap">
-                                    <span class="recent-posts__slider-item-wrap-title">Lorem ipsum dolor sit
+                <div class="slider-track">
+                    <div class="recent-posts__slider-item">
+                        <img class=" recent-posts__slider-item-img" src="img/bg_photo_11639.jpg" alt="recent_posts__slider_item_img_3" height="220">
+                        <div class="recent-posts__slider-item-wrap">
+                            <span class="recent-posts__slider-item-wrap-title">Lorem ipsum dolor sit
                                         amet</span>
-                                    <p class="recent-posts__slider-item-wrap-des">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-                                    <a class="recent-posts__slider-item-wrap-link" href="# " tabindex="-1">Read
+                            <p class="recent-posts__slider-item-wrap-des">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                            <a class="recent-posts__slider-item-wrap-link" href="# " tabindex="-1">Read
                                         More</a>
-                                </div>
-                                <div class="recent-posts__slider-item-date">
-                                    <span class="recent-posts__slider-item-date-day ">30</span>
-                                    <span class="recent-posts__slider-item-date-month ">Sep.</span>
-                                </div>
-                            </div>
-                            <div class="recent-posts__slider-item">
-                                <img class="recent-posts__slider-item-img" src="img/bg_photo_11685.jpg" alt="recent_posts__slider_item_img_1" height="220">
-                                <div class="recent-posts__slider-item-wrap">
-                                    <span class="recent-posts__slider-item-wrap-title ">Lorem ipsum dolor sit
+                        </div>
+                        <div class="recent-posts__slider-item-date">
+                            <span class="recent-posts__slider-item-date-day ">30</span>
+                            <span class="recent-posts__slider-item-date-month ">Sep.</span>
+                        </div>
+                    </div>
+                    <div class="recent-posts__slider-item">
+                        <img class="recent-posts__slider-item-img" src="img/bg_photo_11685.jpg" alt="recent_posts__slider_item_img_1" height="220">
+                        <div class="recent-posts__slider-item-wrap">
+                            <span class="recent-posts__slider-item-wrap-title ">Lorem ipsum dolor sit
                                         amet</span>
-                                    <p class="recent-posts__slider-item-wrap-des">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-                                    <a class="recent-posts__slider-item-wrap-link" href="# " tabindex="-1">Read
+                            <p class="recent-posts__slider-item-wrap-des">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                            <a class="recent-posts__slider-item-wrap-link" href="# " tabindex="-1">Read
                                         More</a>
-                                </div>
-                                <div class="recent-posts__slider-item-date">
-                                    <span class="recent-posts__slider-item-date-day ">30</span>
-                                    <span class="recent-posts__slider-item-date-month ">Sep.</span>
-                                </div>
-                            </div>
-                            <div class="recent-posts__slider-item">
-                                <img class="recent-posts__slider-item-img" src="img/bg_photo_11718.jpg" alt="recent_posts__slider_item_img_2" height="220">
-                                <div class="recent-posts__slider-item-wrap ">
-                                    <span class="recent-posts__slider-item-wrap-title ">Lorem ipsum dolor sit
+                        </div>
+                        <div class="recent-posts__slider-item-date">
+                            <span class="recent-posts__slider-item-date-day ">30</span>
+                            <span class="recent-posts__slider-item-date-month ">Sep.</span>
+                        </div>
+                    </div>
+                    <div class="recent-posts__slider-item">
+                        <img class="recent-posts__slider-item-img" src="img/bg_photo_11718.jpg" alt="recent_posts__slider_item_img_2" height="220">
+                        <div class="recent-posts__slider-item-wrap ">
+                            <span class="recent-posts__slider-item-wrap-title ">Lorem ipsum dolor sit
                                         amet</span>
-                                    <p class="recent-posts__slider-item-wrap-des">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-                                    <a class="recent-posts__slider-item-wrap-link" href="# " tabindex="-1">Read
+                            <p class="recent-posts__slider-item-wrap-des">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                            <a class="recent-posts__slider-item-wrap-link" href="# " tabindex="-1">Read
                                         More</a>
-                                </div>
-                                <div class="recent-posts__slider-item-date">
-                                    <span class="recent-posts__slider-item-date-day ">30</span>
-                                    <span class="recent-posts__slider-item-date-month ">Sep.</span>
-                                </div>
-                            </div>
+                        </div>
+                        <div class="recent-posts__slider-item-date">
+                            <span class="recent-posts__slider-item-date-day ">30</span>
+                            <span class="recent-posts__slider-item-date-month ">Sep.</span>
                         </div>
                     </div>
                 </div>
-                <div class="recent-posts__nav ">
-                    <div class="recent-posts__nav-arrows ">
-                        <div class="recent-posts__nav-prevArrow recent-arrow" style="display: block;">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24 " height="24 " viewBox="0 0 24 24">
+            </div>
+            <div class="recent-posts__nav ">
+                <div class="recent-posts__nav-arrows ">
+                    <button class="recent-posts__nav-prevArrow recent-arrow" type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
                                 <path
                                     d="M8.582764,11.434082 C8.582764,11.434082 13.354858,6.661133 13.354858,6.661133 C13.641541,6.3745117 14.107849,6.3745117 14.395264,6.661133 C14.681885,6.9487305 14.681885,7.4155273 14.395264,7.7021484 C14.395264,7.7021484
                                 10.140686,11.957031 10.140686,11.957031 C10.140686,11.957031 14.395264,16.21045 14.395264,16.21045 C14.681885,16.497559 14.681885,16.96289 14.395264,17.251465 C14.107849,17.538574 13.641541,17.538574 13.354858,17.251465 C13.354858,17.251465
@@ -465,9 +492,9 @@
                                 21.50055,17.253418 21.50055,12.010742 C21.50055,6.7651367 17.232239,2.4970703 11.987427,2.4970703 C6.743164,2.4970703 2.4748535,6.7651367 2.4748535,12.010742 C2.4748535,17.253418 6.743164,21.52295 11.987427,21.52295 Z ">
                                 </path>
                             </svg>
-                        </div>
-                        <div class="recent-posts__nav-nextArrow recent-arrow" style="display: block;">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24 " height="24 " viewBox="0 0 24 24">
+                    </button >
+                    <button  class="recent-posts__nav-nextArrow recent-arrow" type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
                                 <path
                                     d="M15.417053,11.434082 C15.417053,11.434082 10.644897,6.661133 10.644897,6.661133 C10.358215,6.3745117 9.891846,6.3745117 9.604492,6.661133 C9.31781,6.9487305 9.31781,7.4155273 9.604492,7.7021484 C9.604492,7.7021484
                                 13.859192,11.957031 13.859192,11.957031 C13.859192,11.957031 9.604492,16.21045 9.604492,16.21045 C9.31781,16.497559 9.31781,16.96289 9.604492,17.251465 C9.891846,17.538574 10.358215,17.538574 10.644897,17.251465 C10.644897,17.251465
@@ -476,8 +503,7 @@
                                 2.4992065,12.010742 C2.4992065,6.7651367 6.767639,2.4970703 12.012329,2.4970703 C17.256592,2.4970703 21.524902,6.7651367 21.524902,12.010742 C21.524902,17.253418 17.256592,21.52295 12.012329,21.52295 Z ">
                                 </path>
                             </svg>
-                        </div>
-                    </div>
+                    </button >
                 </div>
             </div>
         </section>
@@ -489,7 +515,99 @@
                 <a class="partners-wrap-link" href="#"><img class="partners-wrap-link-img" src="img/logo_04.png" height="164" alt="logo_04"></a>
             </div>
         </section>
+        <footer>
+            <section class="footer">
+               <div class="container footer-wrap">
+                  <div class="footer-about">
+                     <a href="index.html" class="logo footer-about-logo">
+                        <svg class="logo-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 56">
+                           <path d="M 52.87 55.13C 52.87 55.13 58.13 45.94 58.13 45.94 58.13 45.94 63.38 55.13 63.38 55.13 63.38 55.13 52.87 55.13 52.87 55.13ZM 46.3 45.17C 46.3 45.17 56.81 45.17 56.81 45.17 56.81 45.17 51.56 54.36 51.56 54.36 51.56 54.36 46.3 45.17 46.3 45.17ZM 51.56 34.45C 51.56 34.45 56.81 43.64 56.81 43.64 56.81 43.64 46.3 43.64 46.3 43.64 46.3 43.64 51.56 34.45 51.56 34.45ZM 39.74 33.69C 39.74 33.69 50.24 33.69 50.24 33.69 50.24 33.69 44.99 42.87 44.99 42.87 44.99 42.87 39.74 33.69 39.74 33.69ZM 44.99 22.97C 44.99 22.97 50.24 32.15 50.24 32.15 50.24 32.15 39.74 32.15 39.74 32.15 39.74 32.15 44.99 22.97 44.99 22.97ZM 33.17 22.2C 33.17 22.2 43.68 22.2 43.68 22.2 43.68 22.2 38.42 31.39 38.42 31.39 38.42 31.39 33.17 22.2 33.17 22.2ZM 38.42 11.48C 38.42 11.48 43.68 20.67 43.68 20.67 43.68 20.67 33.17 20.67 33.17 20.67 33.17 20.67 38.42 11.48 38.42 11.48ZM 26.6 10.71C 26.6 10.71 37.11 10.71 37.11 10.71 37.11 10.71 31.85 19.9 31.85 19.9 31.85 19.9 26.6 10.71 26.6 10.71ZM 31.85-0.01C 31.85-0.01 37.11 9.18 37.11 9.18 37.11 9.18 26.6 9.18 26.6 9.18 26.6 9.18 31.85-0.01 31.85-0.01ZM 20.03 20.67C 20.03 20.67 25.29 11.48 25.29 11.48 25.29 11.48 30.54 20.67 30.54 20.67 30.54 20.67 20.03 20.67 20.03 20.67ZM 13.46 32.15C 13.46 32.15 18.72 22.97 18.72 22.97 18.72 22.97 23.97 32.15 23.97 32.15 23.97 32.15 13.46 32.15 13.46 32.15ZM 6.9 43.64C 6.9 43.64 12.15 34.45 12.15 34.45 12.15 34.45 17.4 43.64 17.4 43.64 17.4 43.64 6.9 43.64 6.9 43.64ZM 0.33 55.13C 0.33 55.13 5.58 45.94 5.58 45.94 5.58 45.94 10.84 55.13 10.84 55.13 10.84 55.13 0.33 55.13 0.33 55.13ZM 17.4 45.17C 17.4 45.17 12.15 54.36 12.15 54.36 12.15 54.36 6.9 45.17 6.9 45.17 6.9 45.17 17.4 45.17 17.4 45.17ZM 23.97 33.69C 23.97 33.69 18.72 42.87 18.72 42.87 18.72 42.87 13.46 33.69 13.46 33.69 13.46 33.69 23.97 33.69 23.97 33.69ZM 30.54 22.2C 30.54 22.2 25.29 31.39 25.29 31.39 25.29 31.39 20.03 22.2 20.03 22.2 20.03 22.2 30.54 22.2 30.54 22.2ZM 37.11 55.13C 37.11 55.13 26.6 55.13 26.6 55.13 26.6 55.13 31.85 45.94 31.85 45.94 31.85 45.94 37.11 55.13 37.11 55.13ZM 43.68 45.17C 43.68 45.17 38.42 54.36 38.42 54.36 38.42 54.36 33.17 45.17 33.17 45.17 33.17 45.17 43.68 45.17 43.68 45.17ZM 50.24 55.13C 50.24 55.13 39.74 55.13 39.74 55.13 39.74 55.13 44.99 45.94 44.99 45.94 44.99 45.94 50.24 55.13 50.24 55.13Z"></path>
+                        </svg>
+                        <span class="logo-txt">Waxom</span>
+                     </a>
+                     <p class="footer-about-des">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                        nibh
+                        euismod tincidunt ut
+                        laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit
+                        lobortis claritatem.</p>
+                     <a class="recent-posts__slider-item-wrap-link footer-about-link" href="">Read More</a>
+                  </div>
+                  <div class="footer-recent-posts">
+                     <span class="footer-recent-posts__title">Recent Posts</span>
+                     <a class="footer-recent-posts__link" href="#">
+                        <span class="footer-recent-posts__link-title">September 08, 2015</span>
+                        <p class="footer-recent-posts__link-des">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                     </a>
+                     <a class="footer-recent-posts__link" href="#">
+                        <span class="footer-recent-posts__link-title">September 08, 2015</span>
+                        <p class="footer-recent-posts__link-des">Diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                        </p>
+                     </a>
+                     <a class="footer-recent-posts__link" href="#">
+                        <span class="footer-recent-posts__link-title">September 08, 2015</span>
+                        <p class="footer-recent-posts__link-des">Claritas est etiam processus dynamicus, qui sequitur
+                           mutationem per seacula quarta decima</p>
+                     </a>
+                  </div>
+                  <div class="footer-our-twitter">
+                     <span class="footer-our-twitter__title">Our Twitter</span>
+                     <a class="footer-our-twitter__link" href="#">
+                        <p class="footer-our-twitter__link-des"><span class="footer-our-twitter__link-des-link-blue">@waxom</span>
+                           Cum soluta nobis eleifend option congue nihil imperdiet
+                           doming</p>
+                        <span class="footer-our-twitter__link-title">3 mins ago</span>
+                     </a>
+                     <a class="footer-our-twitter__link" href="#">
+                        <p class="footer-our-twitter__link-des">Mirum est <span class="footer-our-twitter__link-des-link-blue">#envato</span> notare quam littera gothica, quam
+                           nunc
+                           putamus parum anteposuerit litterarum
+                        </p>
+                        <span class="footer-our-twitter__link-title">5 hours ago</span>
+                     </a>
+                     <a class="footer-our-twitter__link" href="#">
+      
+                        <p class="footer-our-twitter__link-des">Soluta nobis option <span class="footer-our-twitter__link-des-link-grey">bit.ly/1Hniso7</span>
+                        </p>
+                        <span class="footer-our-twitter__link-title">September 08, 2015</span>
+                     </a>
+                  </div>
+                  <div class="footer-dribbble-widget">
+                     <span class="footer-dribbble-widget-title">Dribbble Widget</span>
+                     <div class="footer-dribbble-widget-wrap">
+                        <a class="footer-dribbble-widget-link" href="#">
+                           <img class="footer-dribbble-widget-link-img" height="98" src="img/footer_mini_1.jpg" alt="footer_mini_1">
+                        </a>
+                        <a class="footer-dribbble-widget-link" href="#">
+                           <img class="footer-dribbble-widget-link-img" height="98" src="img/footer_mini_2.jpg" alt="footer_mini_2">
+                        </a>
+                        <a class="footer-dribbble-widget-link" href="#">
+                           <img class="footer-dribbble-widget-link-img" height="98" src="img/footer_mini_3.jpg" alt="footer_mini_3">
+                        </a>
+                        <a class="footer-dribbble-widget-link" href="#">
+                           <img class="footer-dribbble-widget-link-img" height="98" src="img/footer_mini_4.jpg" alt="footer_mini_4">
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="copyright">
+               <div class="container copyright-wrap">
+                  <div class="copyright-wrap-left">
+                     <a class="copyright-wrap-left-link" href="#">Copyright © 2015 <span class="copyright-wrap-left-link-white">Waxom</span></a>
+                     <a class="copyright-wrap-left-link" href="#">Privacy Policy</a>
+                     <a class="copyright-wrap-left-link" href="#">FAQ</a>
+                     <a class="copyright-wrap-left-link" href="#">Support</a>
+                  </div>
+                  <div class="copyright-wrap-right">
+                     <a class="copyright-wrap-right-link" href="#">Designed by <span class="copyright-wrap-right-link-white">ThemeFire</span></a>
+                     <a class="copyright-wrap-right-link" href="#">Only on <span class="copyright-wrap-right-link-white">Envato Market</span></a>
+                  </div>
+               </div>
+            </section>
+         </footer>
     </main>
-    </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
 
 </html>
